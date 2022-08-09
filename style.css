@@ -7,10 +7,7 @@ body{
     font-family: 'League Spartan', sans-serif;
     
 }
-.checked{
-    color: orange;
-  
-}
+
 
 .main{
     background-color: white;
@@ -213,93 +210,124 @@ body{
     text-align: center;
 }
 
-/* Media Queries*/
 
 
-@media screen and (max-width: 750px) {
-    .main{
-        background-color: red;
-        
-    }
-    .section1{
-        display: flex;
-        flex-direction: column;
-    }
-    .section2{
-        display: flex;
-        flex-direction: column;
-    }
-}
+ @media screen and (max-width: 750px) and (min-width:300px) {
 
-@media screen  and (max-width: 375px) {
+    body{
+        background-color: green;
+        width: 100%;
+
+    
+    }
     .main{
         background-color: blue;
-        display: flex;
-        flex-direction: column;
+        width: 100%;
         
-        
+
     }
     .section1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+      display: block;
+      margin-bottom: 0;
     }
-    .top-icon img{
-        display: hide;
-    }
-    .left-session p{
-        text-align: center;
-        color: hsl(303, 10%, 53%);
-        font-size: 12px;
-        line-height: 18px;
-        font-weight: bold;
-        margin-right: 50px;
-        margin-bottom: 0px;
-    
-     }
-
-    .head{
-        text-align: center;
-        width: auto;
-        margin-right: 50px;
-    }
-
-    .rating1{
-        height: 18px;
-    }
-    .rating2{
-        height: 18px;
-    }
-    .rating3{
-        height: 18px;
-        
-    }
-
-    
-    .right-session{
-        height: 40px;
-    }
-    .right-session .star{
-        display: block;
-        
-    }
-    .right-session div{
-        margin-top: -90px;
-        height: fit-content;
-       
-       
-    }
-
-
     .section2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        display: block;
+        margin: auto;
     }
-    .container1{
-        height: 100px;
-        width: 250px;
+    .profile{
+        display: block;
+        padding: 0;
     }
+    
+    .left-session{
+        padding: auto;
+        margin-left: auto;
+        width: auto;
+    }
+    .left-session .head{
+        margin-bottom: auto;
+        width:70%;
+        font-size: 17px;
+        line-height: 17px;
+        text-align: center;
+        margin-left: -65px;
+        margin-top: -19px;
+
+    }
+
+    .left-session p{
+        width: 70%;
+        font-size: 5px;
+        line-height: 12px;
+        text-align: center;
+        margin-left: -65px;
+        margin-top: 10px;
+
+    
+    }
+
+    .right-session{
+        padding: auto;
+        margin: auto;
+        height: auto;
+        width: auto;
+     
+    }
+
+    .right-session div{
+        padding: auto;
+        margin: auto;
+        height: 20px;
+        width: 50vw;
+
+    }
+    .rating1 span,
+    .rating2 span,
+    .rating3 span{
+        margin: auto;
+        font-size: 11px;
+        
+    }
+    
+    .rating1,
+    .rating2,
+    .rating3{
+        height: auto;
+        width: auto;
+        padding: auto;
+    }
+
+    .container1,
+    .container2,
+    .container3{
+        margin: auto;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+
+.img-container,
+.img-container img{
+    margin: auto;
+    width: auto;
+    height: auto;
 }
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
